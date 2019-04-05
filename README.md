@@ -42,4 +42,4 @@ Decompress the latest release from [here](https://github.com/aCluelessDanny/typo
 
 ### 🇮🇱 Hebrew
 
-![fa-night](./media/fa-night.png)
+![fa-night](./media/he-night.png)
