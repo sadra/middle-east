@@ -97,6 +97,14 @@ h6, p, a, del, mark, #write p, #write a, #write del, #write mark, #write ul, #wr
   direction: rtl;
 }
 
+.outline-item{
+  direction: rtl;
+}
+.outline-h2, .outline-h3, .outline-h4,
+ .outline-h5, .outline-h6 {
+  margin-right: 10px !important;
+}
+
 h1,
 h2,
 h3,
