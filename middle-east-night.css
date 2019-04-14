@@ -163,6 +163,8 @@ mark {
 #write ul {
   padding-left: 2rem;
   margin: 0.5rem 0;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }
 
 #write ul {
@@ -718,5 +720,9 @@ footer.ty-footer {
   #write ol > li,
   #write ul > li {
     color: var(--text-color);
+  }
+  #write h1::before, #write h2::before, #write h3::before,
+  #write h4::before, #write h5::before, #write h6::before {
+    display: none;
   }
 }
