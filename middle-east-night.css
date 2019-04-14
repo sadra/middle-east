@@ -105,6 +105,10 @@ h6, p, a, del, mark, #write p, #write a, #write del, #write mark, #write ul, #wr
   margin-right: 10px !important;
 }
 
+#md-notification, #md-notification *{
+  direction: ltr;
+}
+
 h1,
 h2,
 h3,
