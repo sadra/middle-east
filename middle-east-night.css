@@ -379,6 +379,10 @@ sup.md-footnote {
   padding: 0 4px;
 }
 
+.footnotes, .footnotes-area {
+  direction: rtl;
+}
+
 span.md-def-split {
   min-width: 1ch;
 }
@@ -388,6 +392,13 @@ span.md-def-split {
   color: var(--meta-content-color);
 }
 
+.md-def-footnote .md-def-name:before, .md-def-name:before {
+  content: ']: '
+}
+
+.md-def-name:after {
+  content: '[^ ';
+}
 /* Writing area */
 #write {
   width: 90%;
