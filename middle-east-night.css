@@ -727,6 +727,10 @@ footer.ty-footer {
   border: 0 !important;
 }
 
+.typora-sourceview-on #toggle-sourceview-btn {
+  background: unset;
+}
+
 /* Print/PDF */
 @media print {
   #write ol > li,
