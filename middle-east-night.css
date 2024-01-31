@@ -753,3 +753,15 @@ footer.ty-footer {
     display: none;
   }
 }
+
+.md-def-footnote {
+  direction: rtl;
+}
+
+.md-def-name::before {
+  content: '] :' !important
+}
+
+.md-def-name::after {
+  content: '[^'
+}
