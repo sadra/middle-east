@@ -87,6 +87,13 @@ body {
   font-size: 14px;
 }
 
+*.in-text-selection,
+::selection {
+    background: #4a89dc;
+    color: #fff;
+    text-shadow: none;
+}
+
 h1,
 h2,
 h3,
